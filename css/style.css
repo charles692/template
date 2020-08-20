@@ -1,9 +1,99 @@
+.bg-primary {
+  background-color: cornflowerblue;
+}
+
+.bg-secondary {
+  background-color: lightseagreen;
+}
+
+.row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+aside {
+  background-color: white;
+  height: 92vh;
+  position: absolute;
+  width: 250px;
+  z-index: 1;
+}
+
+header {
+  height: 9vh;
+  padding: 0 1rem;
+}
+
+main {
+  background-color: #e7e7e7;
+  height: 92vh;
+  padding: 1rem;
+  z-index: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-header nav {
-  padding: 0.5rem;
+.hidden {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

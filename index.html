@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body>
-    <header>
-      <nav></nav>
+
+  <body class="column">
+    <header class="row justify-start bg-primary">
+      <button id="menu-toggle" onclick="showMenu()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
     </header>
 
-    <main></main>
+    <aside id="menu" class="hidden animate__animated animate__slideInLeft">
+      <nav id="links"></nav>
+    </aside>
 
-    <footer></footer>
+    <main class="column justify-center"></main>
+
+    <footer class="row"></footer>
 
     <script src="./js/main.js"></script>
   </body>

@@ -1,10 +1,21 @@
+@import "./theme";
+@import "./helpers/colors";
+@import "./helpers/flex";
+@import "./helpers/text";
+@import "./components/buttons";
+@import "./components/drawer";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/main";
+
+// Global style
+
+// Removes default margin and padding
 * {
   margin: 0;
   padding: 0;
 }
 
-header {
-  nav {
-    padding: 0.5rem;
-  }
-
+.hidden {
+  display: none;
+}
