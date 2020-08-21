@@ -58,6 +58,10 @@
           justify-content: space-between;
 }
 
+.text-white {
+  color: #fff;
+}
+
 button {
   background: none;
   color: inherit;
@@ -70,20 +74,23 @@ button {
 
 aside {
   background-color: white;
-  height: 92vh;
+  -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0px 10px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0px 10px rgba(0, 0, 0, 0.24);
+  height: 91vh;
   position: absolute;
   width: 250px;
   z-index: 1;
 }
 
 header {
+  -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0px 10px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2), 0 0px 10px rgba(0, 0, 0, 0.24);
   height: 9vh;
   padding: 0 1rem;
 }
 
 main {
-  background-color: #e7e7e7;
-  height: 92vh;
+  height: 91vh;
   padding: 1rem;
   z-index: 0;
 }
